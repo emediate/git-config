@@ -1,0 +1,33 @@
+[user]
+	name = Förnamn Efternamn
+	email = fornamn.efternamn@cxense.com
+
+[core]
+	autocrlf = input
+	safecrlf = true
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status -uno
+  sta = status
+  br = branch
+  uns = reset HEAD
+  dis = checkout --
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  graph = log --graph --simplify-by-decoration --pretty=format:'%d' --all
+  type = cat-file -t
+  dump = cat-file -p
+  staged = diff --staged
+
+[reviewboard]
+	url = https://reviews.emediate.se/
+
+[rerere]
+	enabled = true
+
+[diff]
+	algorithm = patience
+
+[color]
+	branch = auto
