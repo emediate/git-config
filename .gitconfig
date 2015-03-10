@@ -1,10 +1,10 @@
 [user]
-	name = Förnamn Efternamn
-	email = fornamn.efternamn@cxense.com
+  name = Förnamn Efternamn
+  email = fornamn.efternamn@cxense.com
 
 [core]
-	autocrlf = input
-	safecrlf = true
+  autocrlf = input
+  safecrlf = true
 
 [alias]
   co = checkout
@@ -21,13 +21,13 @@
   staged = diff --staged
 
 [reviewboard]
-	url = https://reviews.emediate.se/
+  url = https://reviews.emediate.se/
 
 [rerere]
-	enabled = true
+  enabled = true
 
 [diff]
-	algorithm = patience
+  algorithm = patience
 
 [color]
-	branch = auto
+  branch = auto
